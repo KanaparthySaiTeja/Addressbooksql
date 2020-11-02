@@ -23,3 +23,14 @@ INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_n
 VALUES ('Sai', 'Teja', 'Area51', 'Karimnagar', 'Ts',505001,955554875, 'sai@gmail.com');
 
 select * from AddressBook;
+alter table addressbook rename column emai to  email;
+select * from AddressBook;
+
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,email)
+VALUES ('hari', 'krishna', 'Brea51', 'Barimnagar', 'Bs',505002,956554875, 'hari@gmail.com');
+
+select * from AddressBook;
+
+//Uc4
+update addressbook set email='kiran@gmail.com' where first_name ='hari';
+select * from AddressBook;
