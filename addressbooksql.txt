@@ -54,9 +54,13 @@ VALUES ('chari', 'krish', 'Brea51', 'Karimnagar', 'Bs',505002,956554875, 'hari@g
 
 select * from addressbook where city='Karimnagar' order by first_name;
 
+//UC9
 ALTER TABLE AddressBook
 ADD type varchar(25);
 update addressbook set type='friend' where first_name ='hari' or first_name='chari';
 select * from AddressBook;
 update addressbook set type='family' where first_name ='Sai';
 select * from AddressBook;
+
+//UC10
+select count(first_name) from addressbook;
