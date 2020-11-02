@@ -64,3 +64,10 @@ select * from AddressBook;
 
 //UC10
 select count(first_name) from addressbook;
+
+//UC11
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,email,type)
+VALUES ('imran', 'sir', 'Brea51', 'Barimnagar', 'Bs',505002,956554875, 'mentor@gmail.com','friend');
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,email,type)
+VALUES ('prince', 'sir', 'Brea51', 'Barimnagar', 'Bs',505002,956554875, 'sir@gmail.com','family');
+select * from AddressBook;
