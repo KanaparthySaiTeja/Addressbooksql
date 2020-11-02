@@ -41,3 +41,7 @@ select * from AddressBook;
 
 //UC6
 select * from addressbook where first_name='Sai';
+
+//UC7
+select count(city) from addressbook;
+select count(state) from addressbook;
