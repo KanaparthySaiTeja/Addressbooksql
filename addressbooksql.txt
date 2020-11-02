@@ -1,3 +1,15 @@
 CREATE DATABASE db;
 use db;
 select database();
+create table AddressBook 
+(
+ first_name varchar(20) ,
+ last_name  varchar(20) ,
+address varchar(100) ,
+city varchar(20) ,
+state varchar(20) ,
+zip int unsigned ,
+phone_number int(10) ,
+emai varchar(20) );
+
+describe addressbook;
