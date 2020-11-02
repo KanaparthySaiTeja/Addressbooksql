@@ -38,3 +38,6 @@ select * from AddressBook;
 //Uc5
 delete from addressbook where first_name='hari';
 select * from AddressBook;
+
+//UC6
+select * from addressbook where first_name='Sai';
