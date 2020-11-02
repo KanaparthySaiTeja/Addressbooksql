@@ -45,3 +45,11 @@ select * from addressbook where first_name='Sai';
 //UC7
 select count(city) from addressbook;
 select count(state) from addressbook;
+
+//UC8
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,email)
+VALUES ('hari', 'krishna', 'Brea51', 'Barimnagar', 'Bs',505002,956554875, 'hari@gmail.com');
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,email)
+VALUES ('chari', 'krish', 'Brea51', 'Karimnagar', 'Bs',505002,956554875, 'hari@gmail.com');
+
+select * from addressbook where city='Karimnagar' order by first_name;
