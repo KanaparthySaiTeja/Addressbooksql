@@ -34,3 +34,7 @@ select * from AddressBook;
 //Uc4
 update addressbook set email='kiran@gmail.com' where first_name ='hari';
 select * from AddressBook;
+
+//Uc5
+delete from addressbook where first_name='hari';
+select * from AddressBook;
