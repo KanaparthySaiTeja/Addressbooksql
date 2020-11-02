@@ -1,6 +1,10 @@
+//UC1
+
 CREATE DATABASE db;
 use db;
 select database();
+
+//UC2
 create table AddressBook 
 (
  first_name varchar(20) ,
@@ -13,3 +17,9 @@ phone_number int(10) ,
 emai varchar(20) );
 
 describe addressbook;
+
+//UC3
+INSERT INTO addressbook (first_name, last_name, Address, City, State,zip,phone_number,emai)
+VALUES ('Sai', 'Teja', 'Area51', 'Karimnagar', 'Ts',505001,955554875, 'sai@gmail.com');
+
+select * from AddressBook;
